@@ -6,8 +6,8 @@ function mostrarAumento()
 {
     var num1;
     var aumento;
-    num1 = document.getElementById("sueldo").value;
-    aumento = parseInt(num1) *10 /100 + parseInt(num1);
+    num1 = parseInt(document.getElementById("sueldo").value);
+    aumento = num1 *10 /100 + num1;
 
     document.getElementById("resultado").value = aumento;
 }

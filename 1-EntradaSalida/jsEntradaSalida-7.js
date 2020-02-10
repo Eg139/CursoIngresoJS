@@ -7,34 +7,34 @@ function sumar()
 	var num1;
     var num2;
     var resultado;
-    num1 = document.getElementById("numeroUno").value;
-    num2 = document.getElementById("numeroDos").value;
-    resultado = parseInt(num1) + parseInt(num2);
+    num1 = parseInt(document.getElementById("numeroUno").value);
+    num2 = parseInt(document.getElementById("numeroDos").value);
+    resultado = (num1) + (num2);
     alert("La suma es: "+ resultado);
 }
 
 function restar()
 {
-    var num1 = document.getElementById("numeroUno").value;
-    var num2 = document.getElementById("numeroDos").value;
+    var num1 = parseInt(document.getElementById("numeroUno").value);
+    var num2 = parseInt(document.getElementById("numeroDos").value);
     var resultado;
-    resultado = parseInt(num1) - parseInt(num2);
+    resultado = (num1) + (num2);
     alert("La resta es: " + resultado);
 }
 
 function multiplicar()
 { 
-    var num1 = document.getElementById("numeroUno").value;
-    var num2 = document.getElementById("numeroDos").value;
-    var resultado  = parseInt(num1) * parseInt(num2);
+    var num1 = parseInt(document.getElementById("numeroUno").value);
+    var num2 = parseInt(document.getElementById("numeroDos").value);
+    var resultado  = (num1) + (num2);
     alert("La multiplicacion es: " + resultado);
 }
 
 function dividir()
 {
-    var num1 = document.getElementById("numeroUno").value;
-    var num2 = document.getElementById("numeroDos").value;	
-    var resultado = parseInt(num1) / parseInt(num2);
+    var num1 = parseInt(document.getElementById("numeroUno").value);
+    var num2 = parseInt(document.getElementById("numeroDos").value);	
+    var resultado = (num1) + (num2);
     alert("La division es: "+resultado);
 }
 
